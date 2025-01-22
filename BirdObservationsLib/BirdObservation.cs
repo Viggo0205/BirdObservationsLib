@@ -24,9 +24,9 @@
 
         public void ValidateHowMany()
         {
-            if (HowMany < 0)
+            if (HowMany < 1)
             {
-                throw new ArgumentOutOfRangeException("How many skal være 0 eller over");
+                throw new ArgumentOutOfRangeException("How many skal være 1 eller over");
             }
         }
 
